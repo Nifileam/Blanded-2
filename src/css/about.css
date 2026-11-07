@@ -1,5 +1,14 @@
 .about-list {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #1b414b;
+  flex-grow: 1;
+  padding: 90px 50px;
+}
+
+.about-item {
+  width: 286px;
+  height: 100px;
 }
 
 .about-count {
@@ -7,6 +16,20 @@
   font-size: 32px;
   line-height: 1;
   letter-spacing: -0.05em;
+  position: relative;
+}
+
+span {
+  position: absolute;
+  padding: 18px;
+}
+
+span .about-count ::after {
+  content: '';
+  border-radius: 18px;
+  width: 286px;
+  height: 2px;
+  background: rgba(251, 251, 251, 0.1);
 }
 
 .about-text {
@@ -14,4 +37,15 @@
   line-height: 1.15;
   letter-spacing: -0.02em;
   color: #b4b7ba;
+}
+
+.about-container {
+  display: flex;
+  gap: 32px;
+}
+
+.about-img {
+  border-radius: 24px;
+  width: 432px;
+  height: 424px;
 }
