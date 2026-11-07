@@ -1,5 +1,11 @@
+.page-header {
+  position: absolute;
+}
+
 .header-container {
   background-color: #fbfbfb;
+  width: 1080px;
+  margin: 0 auto;
 }
 
 .header-logo {
@@ -20,4 +26,8 @@
 .header-nav-link:hover,
 .header-nav-link:focus {
   background-color: #1b414b;
+}
+
+.header-icon {
+  color: #1b414b;
 }
