@@ -1,5 +1,7 @@
 .page-footer {
   background-color: #1b414b;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .footer-logo {
@@ -14,6 +16,8 @@
   text-transform: uppercase;
   text-align: center;
   background-color: rgba(251, 251, 251, 0.3);
+  padding: 15px 25px;
+  border-radius: 8px;
 }
 
 .footer-nav-link:hover,
@@ -27,6 +31,9 @@
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
+  width: 693px;
+  margin-top: 96px;
+  margin-bottom: 99px;
 }
 
 .footer-copyright,
@@ -40,4 +47,37 @@
 .footer-privacy:hover,
 .footer-privacy:focus {
   color: #fbfbfb;
+}
+
+.footer-nav-list {
+  display: flex;
+  gap: 4px;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  align-self: start;
+  gap: 370px;
+}
+
+.police-privace {
+  display: flex;
+  gap: 32px;
+  margin: 0 auto;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-social {
+  display: flex;
+  gap: 8px;
+}
+
+.footer-icon {
+  color: #ffffff;
 }
